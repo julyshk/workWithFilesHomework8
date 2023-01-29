@@ -1,0 +1,9 @@
+{
+  "category": "Supermarket",
+  "street": "Krasnyj prospect",
+  "house_number": 331,
+  "phone":"88001234567",
+  "open": true,
+  "food": ["Apple", "Banana", "Orange" ],
+  "not_food": ["Shampoo", "Soap"]
+}

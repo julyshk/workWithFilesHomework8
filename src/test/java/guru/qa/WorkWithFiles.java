@@ -1,21 +1,19 @@
 package guru.qa;
 
 import org.junit.jupiter.api.Test;
-
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
-
-import static org.assertj.core.api.Assertions.assertThat;
-
 import com.codeborne.pdftest.PDF;
 import com.codeborne.xlstest.XLS;
 import com.opencsv.CSVReader;
 
-public class workWithFiles {
-    ClassLoader cl = workWithFiles.class.getClassLoader();
+import static org.assertj.core.api.Assertions.assertThat;
+
+public class WorkWithFiles {
+    ClassLoader cl = WorkWithFiles.class.getClassLoader();
 
     @Test
     public void zipParseTest() throws Exception {
